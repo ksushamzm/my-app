@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Suisse";
+  src: url("./fonts/SuisseIntl-Bold.otf") format("otf"),
+    url("./fonts/SuisseIntl-Light.otf") format("otf"),
+    url("./fonts/SuisseIntl-SemiBold.otf") format("otf"),
+    url("./fonts/SuisseIntl-Medium.otf") format("otf"),
+    url("./fonts/tilda-sans_bold.ttf") format("truetype");
+
+  font-family: "Tilda-sans";
+  src: url("./fonts/tilda-sans_bold.ttf") format("truetype");
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+}
+
+img {
+  margin: 0;
+}
+
+:root {
+  --black-color: #111112;
+  --white-color: #fffefc;
+  --dark-blue-color: #2f3448;
+  --grey-color: #ebebeb;
+  --orange-color: #e95a32;
+  --grey-100-color: #f1f1f1;
+}
+
+.text-title-l {
+  color: var(--black-color);
+  font-family: Tilda;
+  font-size: 96px;
+  font-style: bold;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -3%;
+}
+
+.text-body {
+}
