@@ -2,7 +2,7 @@ import React from "react";
 import "./SplashScreen.css";
 import Modal from "./hoc/Modal";
 import Popup from "./Popup";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const SplashScreen = () => {
   const [isOpen, setIsOpen] = useState(false);

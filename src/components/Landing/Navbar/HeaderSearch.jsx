@@ -9,7 +9,7 @@ function HeaderSearch() {
         <div className="upperLogo">
           <img
             loading="lazy"
-            src="../icons/burger-icon.svg"
+            src="./icons/burger-icon.svg"
             alt=""
             className="burgerIcon"
           />
@@ -28,7 +28,7 @@ function HeaderSearch() {
         </nav>
       </div>
       <form className="searchContainer">
-        <img src="../icons/search-icon.svg" alt="" className="searchIcon" />
+        <img src="./icons/search-icon.svg" alt="" className="searchIcon" />
         <label htmlFor="searchInput" className="visually-hidden">
           Введите запрос
         </label>
@@ -41,7 +41,7 @@ function HeaderSearch() {
         />
       </form>
       <img
-        src="../icons/user-icon.svg"
+        src="./icons/user-icon.svg"
         alt="User profile"
         className="userIcon"
       />
