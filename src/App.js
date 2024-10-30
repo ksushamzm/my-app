@@ -1,5 +1,5 @@
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
   Route,
   Link,
@@ -8,7 +8,7 @@ import Index from "./pages/Index";
 import Error from "./pages/Error";
 import "./styles.css";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Index />,
