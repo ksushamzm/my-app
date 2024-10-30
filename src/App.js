@@ -12,7 +12,7 @@ const router = createHashRouter([
     element: <Index />,
   },
   {
-    path: "error",
+    path: "/error",
     element: <Error />,
   },
 ]);
