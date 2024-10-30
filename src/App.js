@@ -1,8 +1,6 @@
 import {
   createHashRouter,
-  RouterProvider,
-  Route,
-  Link,
+  RouterProvider
 } from "react-router-dom";
 import Index from "./pages/Index";
 import Error from "./pages/Error";
