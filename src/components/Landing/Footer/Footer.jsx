@@ -29,13 +29,13 @@ const Footer = () => {
       </div>
       <div className="sideContent">
         <nav className="menu">
-          <a href="/" className="menuItem menuItemActive">
+          <a href="" className="menuItem menuItemActive">
             Главная
           </a>
-          <a href="/authors" className="menuItem">
+          <a href="" className="menuItem">
             Авторы
           </a>
-          <a href="/map" className="menuItem">
+          <a href="" className="menuItem">
             Карта
           </a>
         </nav>

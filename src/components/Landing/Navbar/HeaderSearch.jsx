@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./HeaderSearch.css";
 
 function HeaderSearch() {
@@ -15,9 +16,15 @@ function HeaderSearch() {
           <div className="logoText">ЭХО</div>
         </div>
         <nav className="navigation">
-          <div className="navItem navItem-active">Главная</div>
-          <div className="navItem">Авторы</div>
-          <div className="navItem">Карта</div>
+          <Link to="/" class="navItem navItem-active a">
+            Главная
+          </Link>
+          <Link to="/error" class="navItem a">
+            Авторы
+          </Link>
+          <Link to="/error" class="navItem a">
+            Карта
+          </Link>
         </nav>
       </div>
       <form className="searchContainer">
