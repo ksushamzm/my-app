@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./FeedComponent.css";
+import "./FeedComponent.css";
 
 function PopularTags() {
   const tags = [
