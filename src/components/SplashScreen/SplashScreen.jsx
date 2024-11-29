@@ -55,5 +55,5 @@ const SplashScreen = () => {
 export default SplashScreen;
 
 //<div className="pattern">
-//<img src="./images/pattern.svg" className="pattern" />
+//<img src="./images/pattern.svg" className="patten" />
 //</div>
