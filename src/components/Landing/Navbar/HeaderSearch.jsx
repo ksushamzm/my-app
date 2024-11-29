@@ -7,12 +7,7 @@ function HeaderSearch() {
     <header className="headerSearch">
       <div className="logoContainer">
         <div className="upperLogo">
-          <img
-            loading="lazy"
-            src="./icons/burger-icon.svg"
-            alt=""
-            className="burgerIcon"
-          />
+          <img src="./icons/burger-icon.svg" className="burgerIcon" />
           <div className="logoText">ЭХО</div>
         </div>
         <nav className="navigation">
@@ -28,10 +23,7 @@ function HeaderSearch() {
         </nav>
       </div>
       <form className="searchContainer">
-        <img src="./icons/search-icon.svg" alt="" className="searchIcon" />
-        <label htmlFor="searchInput" className="visually-hidden">
-          Введите запрос
-        </label>
+        <img src="./icons/search-icon.svg" className="searchIcon" />
         <input
           type="text"
           id="searchInput"

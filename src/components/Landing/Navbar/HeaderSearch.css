@@ -1,19 +1,10 @@
 .headerSearch {
   display: flex;
-  width: 100%;
   align-items: center;
-  gap: 40px 110px;
   justify-content: flex-start;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   padding: 40px 40px 80px;
   background-color: transparent;
-}
-
-@media (max-width: 991px) {
-  .headerSearch {
-    max-width: 100%;
-    padding: 0 20px;
-  }
 }
 
 .logoContainer {
@@ -30,13 +21,6 @@
   margin: auto 0;
 }
 
-@media (max-width: 991px) {
-  .logoContainer {
-    max-width: 100%;
-    white-space: initial;
-  }
-}
-
 .upperLogo {
   align-self: stretch;
   display: flex;
@@ -49,12 +33,6 @@
   font: 800 40px Tilda Sans, -apple-system, Roboto, Helvetica, sans-serif;
 }
 
-@media (max-width: 991px) {
-  .logo {
-    white-space: initial;
-  }
-}
-
 .burgerIcon {
   aspect-ratio: 1.14;
   object-fit: contain;
@@ -64,30 +42,22 @@
   margin: auto 0;
 }
 
-.logoText {
-  align-self: stretch;
-  margin: auto 0;
-}
-
 .navigation {
   align-self: stretch;
   text-decoration: none;
   display: flex;
-  min-width: 240px;
   align-items: center;
   gap: 40px 64px;
   color: #111112;
   justify-content: center;
-  width: 329px;
   margin: auto 0;
   font: 300 20px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
   text-decoration: none;
 }
 
- {
+@media (max-width: 1204px) {
   .navigation {
-    white-space: initial;
-    text-decoration: none;
+    display: none;
   }
 }
 
@@ -105,22 +75,13 @@
 .searchContainer {
   align-self: stretch;
   display: flex;
-  min-width: 240px;
   align-items: center;
   gap: 16px;
   color: rgba(0, 0, 0, 0.5);
   justify-content: center;
-  flex-grow: 1;
-  width: 424px;
   margin: auto 0;
   padding: 0 12px 0 18px;
   font: 300 16px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
-}
-
-@media (max-width: 991px) {
-  .searchContainer {
-    max-width: 100%;
-  }
 }
 
 .searchIcon {
@@ -135,6 +96,7 @@
 .searchInput {
   align-self: stretch;
   width: 350px;
+  height: 24px;
   border-radius: 25px;
   background-color: #ebebeb;
   min-width: 240px;
@@ -155,19 +117,48 @@
   margin: auto 0;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
 .a {
   text-decoration: none;
   color: black;
+}
+
+@media (max-width: 991px) {
+  .headerSearch {
+    padding: 40px 40px 80px;
+  }
+
+  .searchInput {
+    display: none;
+  }
+
+  .searchContainer {
+    padding: 0 24px 0 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .headerSearch {
+    padding: 40px 40px 64px;
+  }
+
+  .searchIcon,
+  .userIcon,
+  .burgerIcon {
+    width: 24px;
+  }
+
+  .upperLogo {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 430px) {
+  .headerSearch {
+    padding: 24px 24px 40px;
+  }
+
+  .upperLogo {
+    gap: 28px;
+  }
+
 }

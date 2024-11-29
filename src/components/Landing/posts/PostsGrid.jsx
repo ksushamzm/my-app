@@ -5,7 +5,7 @@ function PostGrid() {
   return (
     <div class="container">
       <figure>
-        <img src="./images/evenskayaVishivka.jpg" alt="A windmill" />
+        <img src="./images/evenskayaVishivka.jpg" className="imgPost" />
         <figcaption>
           <a href="#">Эвенская вышивка</a>
         </figcaption>
@@ -19,13 +19,13 @@ function PostGrid() {
         </figcaption>
       </figure>
       <figure>
-        <img src="./images/evenskayaVishivka2.jpg" />
+        <img src="./images/evenskayaVishivka2.jpg" className="imgPost" />
         <figcaption>
           <a href="#">Эвенская вышивка</a>
         </figcaption>
       </figure>
       <figure>
-        <img src="./images/costumes.jpg" />
+        <img src="./images/costumes.jpg" className="imgPost" />
         <figcaption>
           <a href="#">
             Костюмы с конкурса высокой моды национального костюма «Этно-Эрато»
@@ -39,7 +39,7 @@ function PostGrid() {
         </figcaption>
       </figure>
       <figure>
-        <img src="./images/vishivka.jpg" />
+        <img src="./images/vishivka.jpg" className="imgPost" />
       </figure>
       <figure>
         <figcaption>
@@ -47,32 +47,32 @@ function PostGrid() {
         </figcaption>
       </figure>
       <figure>
-        <img src="./images/vishivka2.jpg" />
+        <img src="./images/vishivka2.jpg" className="imgPost" />
         <figcaption></figcaption>
       </figure>
       <figure>
-        <img src="./images/vishivka3.jpg" />
+        <img src="./images/vishivka3.jpg" className="imgPost" />
         <figcaption>
           <a href="#">Вышивка манси</a>
         </figcaption>
       </figure>
       <figure>
-        <img src="./images/jewerly.jpg" />
+        <img src="./images/jewerly.jpg" className="imgPost" />
         <figcaption>
           <a href="#">Чукотские украшения</a>
         </figcaption>
       </figure>
       <figure>
-        <img src="./images/ornament.jpg" />
+        <img src="./images/ornament.jpg" className="imgPost" />
         <figcaption>
           <a href="#">Удмуртский народный орнамент</a>
         </figcaption>
       </figure>
       <figure>
-        <img src="./images/triangle.jpg" />
+        <img src="./images/triangle.jpg" className="imgPost" />
       </figure>
       <figure>
-        <img src="./images/music.jpg" />
+        <img src="./images/music.jpg" className="imgPost" />
         <figcaption>
           <a href="#">OTYKEN – STORM</a>
         </figcaption>

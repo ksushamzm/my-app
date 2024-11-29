@@ -1,14 +1,8 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Portal from "./Portal";
 import "./Modal.css";
 
-export default function Modal({
-  onClose,
-  children,
-  shown = false,
-  className,
-  contentClassName,
-}) {
+export default function Modal({ onClose, children, shown = false }) {
   const handleClose = () => {
     onClose();
   };

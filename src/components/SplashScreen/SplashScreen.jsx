@@ -7,7 +7,7 @@ import { useState } from "react";
 const SplashScreen = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="screen">
+    <div className="splashScreen">
       <div className="contentError">
         <div className="titleError">
           <h2 className="headingError">
@@ -16,9 +16,6 @@ const SplashScreen = () => {
             <br />о малочисленных народах России!
           </h2>
           <form className="subscriptionForm">
-            <label htmlFor="emailInput" className="visually-hidden">
-              Электронная почта
-            </label>
             <input
               id="emailInput"
               type="email"
@@ -33,9 +30,9 @@ const SplashScreen = () => {
         </div>
         <p className="message">
           Спасибо, что заглянули на наш сайт, посвященный малочисленным народам
-          России. В данный момент мы проводим работы <br /> по улучшению и
-          обновлению контента, чтобы предоставить <br /> вам наиболее актуальную
-          и интересную информацию.
+          России. В данный момент мы проводим работы по улучшению и обновлению
+          контента, чтобы предоставить вам наиболее актуальную и интересную
+          информацию.
         </p>
       </div>
       <div className="socialSection">
@@ -51,11 +48,12 @@ const SplashScreen = () => {
           </Modal>
         </div>
       </div>
-      <div className="pattern">
-        <img src="./images/pattern.svg" className="pattern" />
-      </div>
     </div>
   );
 };
 
 export default SplashScreen;
+
+//<div className="pattern">
+//<img src="./images/pattern.svg" className="pattern" />
+//</div>
