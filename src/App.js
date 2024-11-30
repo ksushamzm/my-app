@@ -1,5 +1,5 @@
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
   Route,
   Link,
@@ -9,7 +9,7 @@ import Error from "./pages/Error";
 import "./styles.css";
 import { HelmetProvider } from "react-helmet-async";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Index />,
