@@ -1,0 +1,37 @@
+.patternSection {
+  margin-top: 96px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.patternContent {
+  display: flex;
+  gap: 200px;
+  margin-bottom: 64px;
+}
+
+.patternBlock {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.patternDescription {
+  font: 300 24px/28px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  width: 621px;
+  margin-top: 0px;
+}
+
+.PatternHeading {
+  letter-spacing: -1.28px;
+  font: 700 64px/1 Tilda Sans, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.patternExample {
+  width: 200px;
+}
+
+.patternElements {
+  width: 600px;
+}

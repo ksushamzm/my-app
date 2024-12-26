@@ -49,6 +49,19 @@ figcaption {
   }
 }
 
+@media (max-width: 767px) {
+  figure a {
+    font: 600 16px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+
+  .container {
+    column-count: 3;
+    column-gap: 16px;
+    margin-bottom: 64px;
+    padding: 20px;
+  }
+}
+
 @media (max-width: 430px) {
   figure {
     padding: 10px 12px;

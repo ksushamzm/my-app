@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  /* flex-wrap: wrap; */
   padding: 40px 40px 80px;
   background-color: transparent;
 }
@@ -19,6 +18,10 @@
   flex-grow: 1;
   width: 672px;
   margin: auto 0;
+}
+
+.Logo {
+  height: 40px;
 }
 
 .upperLogo {
@@ -146,10 +149,6 @@
   .burgerIcon {
     width: 24px;
   }
-
-  .upperLogo {
-    font-size: 32px;
-  }
 }
 
 @media (max-width: 430px) {
@@ -160,5 +159,4 @@
   .upperLogo {
     gap: 28px;
   }
-
 }

@@ -1,0 +1,56 @@
+.fontSection {
+  margin-top: 96px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.textContent {
+  display: flex;
+  gap: 200px;
+  margin-bottom: 64px;
+}
+
+.textBlock {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textDescription {
+  font: 300 24px/28px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  width: 621px;
+  margin-top: 0px;
+}
+
+.font {
+  font: 500 96px/1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.fontExample1Text1 {
+  font: 500 32px/1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.fontExample1Text2 {
+  font: 200 20px/1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.fontExample1Text3 {
+  font: 400 20px/1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.fontExample1Text4 {
+  font: 400 20px/1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.fontExapleHeader {
+  font: 400 40px/1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.fontExapleHeader2 {
+  font: 600 40px/1 Tilda Sans;
+}
+
+.fontExample1Text5 {
+  font: 400 32px/1 Tilda Sans;
+}

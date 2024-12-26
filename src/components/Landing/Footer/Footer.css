@@ -7,7 +7,7 @@
 
 @media (max-width: 991px) {
   .footer {
-    padding: 0 20px;
+    padding: 64px 20px;
   }
 }
 
@@ -119,12 +119,9 @@
 }
 
 .sideContent {
-  align-self: stretch;
-  display: flex;
   min-width: 240px;
   min-height: 428px;
   flex-direction: column;
-  white-space: nowrap;
   justify-content: space-between;
   height: auto;
 }
@@ -155,12 +152,12 @@
 .logo {
   color: var(--white-color);
   margin-top: 232px;
-  font: 800 40px Tilda Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  height: 64px;
 }
 
 @media (max-width: 991px) {
   .logo {
-    margin-top: 40px;
+    margin-top: 232px;
   }
 }
 
@@ -202,5 +199,15 @@
 
   .contentWrapper {
     gap: 64px;
+  }
+}
+
+@media (max-width: 991px) {
+  .headline {
+    font: 700 40px Tilda Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+
+  .copyright {
+    font: 300 20px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
   }
 }

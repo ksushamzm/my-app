@@ -1,0 +1,75 @@
+.featureList {
+  display: flex;
+  min-width: 240px;
+  flex-direction: column;
+  line-height: 1;
+  justify-content: center;
+  flex-grow: 1;
+  width: 489px;
+}
+
+.featureItem {
+  margin-top: 8px;
+}
+
+.featureItem:first-child {
+  margin-top: 0;
+}
+
+.descriptionList {
+  display: flex;
+  min-width: 240px;
+  flex-direction: column;
+  line-height: 28px;
+  justify-content: center;
+  flex-grow: 1;
+  width: 545px;
+}
+
+.descriptionItem {
+  margin-top: 16px;
+}
+
+.descriptionItem:first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 991px) {
+  .descriptionList {
+    max-width: 100%;
+  }
+
+  .descriptionItem {
+    max-width: 100%;
+  }
+}
+
+.descriptionContainer {
+  display: flex;
+  margin-top: 80px;
+  flex-direction: column;
+  font-family: Suisse Intl, sans-serif;
+  color: var(--black-color);
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.descriptionTitle {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -1.2px;
+  width: 553px;
+}
+
+.descriptionContent {
+  display: flex;
+  margin-top: 32px;
+  align-items: start;
+  gap: 40px 82px;
+  font-size: 24px;
+  font-weight: 300;
+  justify-content: start;
+  flex-wrap: wrap;
+}

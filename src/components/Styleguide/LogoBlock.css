@@ -1,0 +1,46 @@
+.logoSection {
+  display: flex;
+  margin-top: 80px;
+  flex-direction: column;
+  color: var(--black-color);
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.logoBlockContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logoHeading {
+  letter-spacing: -1.28px;
+  font: 700 64px/1 Tilda Sans, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .logoHeading {
+    font-size: 40px;
+  }
+}
+
+.logoDescription {
+  font: 300 24px/28px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  margin-top: 24px;
+}
+
+.logoImage,
+gridImage {
+  object-fit: contain;
+  object-position: center;
+  width: 375px;
+  align-self: center;
+  margin-top: 32px;
+  max-width: 100%;
+}
+
+.gridImage {
+  margin-top: 32px;
+}

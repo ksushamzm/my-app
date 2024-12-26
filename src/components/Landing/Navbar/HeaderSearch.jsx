@@ -8,7 +8,7 @@ function HeaderSearch() {
       <div className="logoContainer">
         <div className="upperLogo">
           <img src="./icons/burger-icon.svg" className="burgerIcon" />
-          <div className="logoText">ЭХО</div>
+          <img src="./images/Logo.svg" className="Logo" />
         </div>
         <nav className="navigation">
           <Link to="/" class="navItem navItem-active a">
@@ -19,6 +19,9 @@ function HeaderSearch() {
           </Link>
           <Link to="/error" class="navItem a">
             Карта
+          </Link>
+          <Link to="/styleguide" class="navItem a">
+            Стайлгайд
           </Link>
         </nav>
       </div>

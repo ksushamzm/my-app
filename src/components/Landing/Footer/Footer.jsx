@@ -39,7 +39,7 @@ const Footer = () => {
             Карта
           </a>
         </nav>
-        <div className="logo">ЭХО</div>
+        <img src="./images/Logo_white.svg" className="logo" />
       </div>
     </footer>
   );

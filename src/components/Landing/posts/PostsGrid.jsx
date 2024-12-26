@@ -1,5 +1,6 @@
 import React from "react";
 import "./PostGrid.css";
+import { Link } from "react-router-dom";
 
 function PostGrid() {
   return (
@@ -48,14 +49,15 @@ function PostGrid() {
       </figure>
       <figure>
         <img src="./images/vishivka2.jpg" className="imgPost" />
-        <figcaption></figcaption>
       </figure>
-      <figure>
-        <img src="./images/vishivka3.jpg" className="imgPost" />
-        <figcaption>
-          <a href="#">Вышивка манси</a>
-        </figcaption>
-      </figure>
+      <Link to="/Article">
+        <figure>
+          <img src="./images/MainArticlePhoto.jpg" className="imgPost" />
+          <figcaption>
+            <a href="#">Материальная культура телеутов</a>
+          </figcaption>
+        </figure>
+      </Link>
       <figure>
         <img src="./images/jewerly.jpg" className="imgPost" />
         <figcaption>
